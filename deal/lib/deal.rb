@@ -1,6 +1,6 @@
-require "deal/version"
+#environment file
+require "nokogirl"
+require "pry"
 
-module Deal
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "deals/version"
+require_relative "deals/cli"
